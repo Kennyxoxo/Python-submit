@@ -1,19 +1,16 @@
-#Get input from user for two numbers
+#Get two numbers from user
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
-addition = num1 + num2
-subtraction = num1 - num2
-multiplaction = num1 * num2
-
-# Check for division by zero
-if num2 != 0:
-    division = num1/num2
+add = num1 + num2
+sub = num1 - num2
+multiply = num1 * num2
+if num2 == 0:
+    divi = "Could not divide by zero."
 else:
-    division = "Cannot divide by zero"
+    divi = num1 / num2
 
-#Display results
-print(f"\nResults:")
-print(f"Addition: {num1} + {num2} = {addition}")
-print(f"Subtraction: {num1} - {num2} = {subtraction}")
-print(f"Multiplaction: {num1} * {num2} = {multiplaction}")
-print(f"Division: {num1} / {num2} = {division}")
+#Results
+print(f"\nAddition: {num1} + {num2} = {add}")
+print(f"Subtraction: {num1} - {num2} = {sub}")
+print(f"Multiplaction: {num1} * {num2} = {multiply}")
+print(f"Division: {num1} / {num2} = {divi}")

@@ -11,3 +11,11 @@ This file includes two python files demonstrating basic programing concepts:
 #assignment3
 **task1.py** - Calculate factorial of a given number. 
 **task2.py** - uses math modules. 
+
+#assignment4
+**task1** - print contents of a file. 
+**task2** - append then print the content of a file.  
+
+#assignment5
+**task1** - Using dictionary give marks of the asked student. 
+**task2** - Slice a list then reverse it. 
